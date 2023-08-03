@@ -1,0 +1,22 @@
+.projects-container {
+    position: relative;
+    height: 94%;
+
+    .projects-container__wrapper {
+        border: 1px solid #333;
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        height: 30%;
+        width: 40%;
+        margin: auto;
+        padding: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

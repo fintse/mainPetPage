@@ -1,0 +1,8 @@
+<div class="header-container">
+    <div class="header-container__wrapper">
+        <a *ngFor="let link of myLinks | keyvalue" 
+            [href]="link.value">
+            {{link.key}}
+        </a>
+    </div>
+</div>

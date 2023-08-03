@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+    height: 100%
+}
+
+@import 'reset.scss';
+// @import 'variables.scss';
+@import '/src/app/components/header/header.component.scss';
+@import '/src/app/components/projects/projects.component.scss';
