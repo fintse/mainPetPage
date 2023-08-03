@@ -1,8 +1,6 @@
-import { HttpClient, HttpResponse, HttpResponseBase } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Component, Injectable, OnInit } from '@angular/core';
 import { map } from 'rxjs';
-
-@Injectable()
 
 @Component({
   selector: 'app-projects',
@@ -23,6 +21,6 @@ export class ProjectsComponent implements OnInit {
         console.log(response);
         // this.repos = response;
         return response;
-      })).subscribe(() => {});
+      })).subscribe();
   }
 }
